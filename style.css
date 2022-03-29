@@ -1,0 +1,25 @@
+.nav-wrapper {
+    background-color: #00a6ad;
+}
+
+.nav-wrapper ul {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+
+#barnet-logo {
+    padding: 4px;
+    margin-top:4px;
+}
+
+#logo {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.graph-wrapper {
+    margin-top: 2em;
+    padding: 1.5rem;
+}
