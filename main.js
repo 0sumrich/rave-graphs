@@ -1,5 +1,5 @@
 (async () => {
-    const jsonData = await fetch('/data.json').then(d => d.json())
+    const jsonData = await fetch('data.json').then(d => d.json())
 
     function makeGraph(id, key) {
         const { data, layout } = jsonData[key]
