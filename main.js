@@ -10,7 +10,8 @@
         'graph1': 'monthly',
         'graph2': 'uniqueUsers',
         'graph3': 'visitors',
-        'graph4': 'netloan'
+        'graph4': 'netloan',
+        'graph5': 'current_borrowers'
     }
     Object.keys(graphs).map(id => makeGraph(id, graphs[id]))
 })()
